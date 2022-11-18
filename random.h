@@ -25,8 +25,4 @@ int int_genRandNxtTo(const int start,const int limit)
     return number;
 }
 
-void int_genRand_negative(const int limit)
-{
-    return int_genRnd(limit) * -1;
-}
 
