@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include "seccodes.h"
-
-char senha[10];
-
+#include "random.h"
 
 int main()
 {
-    genRndPassword(senha);
-    puts(senha);
+    double numero = double_genRnd(100,TWO);
+
+    printf("%f",numero);
 }
